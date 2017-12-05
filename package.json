@@ -1,0 +1,23 @@
+{
+  "name": "steve-excuse",
+  "version": "1.0.0",
+  "description": "Make excuses just like Steve.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanspradlin/steve-excuse.git"
+  },
+  "keywords": [
+    "steve",
+    "excuse"
+  ],
+  "author": "Sean Spradlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanspradlin/steve-excuse/issues"
+  },
+  "homepage": "https://github.com/seanspradlin/steve-excuse#readme"
+}
