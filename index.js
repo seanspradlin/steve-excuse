@@ -1,14 +1,14 @@
 const apologies = [
-	'Sorry buddy,',
-	'Sorry,',
-	'Sorry!!',
-	'<_< Sorry!',
-	'>_> Sorry...',
-	'Oh!!',
-	'Oh!! Sorry,',
-	'No,',
-	'I\'m sorry!',
-	'Sorry guys,',
+  'Sorry buddy,',
+  'Sorry,',
+  'Sorry!!',
+  '<_< Sorry!',
+  '>_> Sorry...',
+  'Oh!!',
+  'Oh!! Sorry,',
+  'No,',
+  'I\'m sorry!',
+  'Sorry guys,',
 ];
 
 const personalActions = [
@@ -92,7 +92,7 @@ function rnd(arr) {
 }
 
 function disappoint() {
-	const apology = rnd(apologies);
+  const apology = rnd(apologies);
   const personalAction = rnd(personalActions);
   const relation1 = rnd(relations);
   const relation2 = rnd(relations);
