@@ -1,3 +1,16 @@
+const apologies = [
+	'Sorry buddy,',
+	'Sorry,',
+	'Sorry!!',
+	'<_< Sorry!',
+	'>_> Sorry...',
+	'Oh!!',
+	'Oh!! Sorry,',
+	'No,',
+	'I\'m sorry!',
+	'Sorry guys,',
+];
+
 const personalActions = [
   'go to the bank',
   'go to school',
@@ -79,12 +92,14 @@ function rnd(arr) {
 }
 
 function disappoint() {
+	const apology = rnd(apologies);
   const personalAction = rnd(personalActions);
   const relation1 = rnd(relations);
   const relation2 = rnd(relations);
   const relationAction = rnd(relationActions);
   const timeframe = rnd(timeframes);
-  return `Sorry, I can't today. I have to ${personalAction} because my ${relation1}'s ${relation2} is ${relationAction} ${timeframe}.`;
+  
+  return `${apology} I can't today. I have to ${personalAction} because my ${relation1}'s ${relation2} is ${relationAction} ${timeframe}.`;
 }
 
 module.exports = disappoint;
