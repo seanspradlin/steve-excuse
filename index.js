@@ -37,6 +37,8 @@ const personalActions = [
   'save some money',
   'buy ice skates',
   'buy snow boots',
+  'drop off the car at the tiny shop',
+  'scrape snow off my car',
 ];
 
 const relations = [
@@ -102,5 +104,7 @@ function disappoint() {
   return `${apology} I can't today. I have to ${personalAction} because my ${relation1}'s ${relation2} is ${relationAction} ${timeframe}.`;
 }
 
+let excuse = disappoint();
+console.log(excuse);
 module.exports = disappoint;
 
